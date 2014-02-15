@@ -1,11 +1,13 @@
 Guard::Sculpin
 ==============
 
-Guard::Sculpin automatically generates a Sculpin site when a source file changes.
+[Guard](https://github.com/guard/guard)::Sculpin automatically generates a [Sculpin](https://sculpin.io) site when a source file changes.
 
 
 Installation
 ------------
+
+Before you start make sure that you have Guard installed. It's best to use [Bundler](http://bundler.io) to install Guard and Guard::Sculpin.
 
 Add Guard::Sculpin to your Gemfile
 
@@ -36,6 +38,8 @@ Guard::Sculpin has some options you can set.
 - `:project_dir => '.'`
 
 The default configuration assumes you used Composer to install Sculpin. If you have Sculpin installed globally you should change `:binary` to `sculpin`.
+
+You can find more information on how Guard works in the [Guard usage documentation](http://github.com/guard/guard#readme).
 
 ### Example Guard definition
 
