@@ -1,4 +1,4 @@
 # Installed by guard-sculpin
 guard 'sculpin' do
-    watch(%r{^source/.*\.(php|md|html|css|js|png|jpg|gif)$})
+    watch(%r{^source/*})
 end
