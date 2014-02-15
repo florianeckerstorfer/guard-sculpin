@@ -58,6 +58,18 @@ end
 *(This definition is installed when you run `bundle exec guard init sculpin`)*
 
 
+Changelog
+---------
+
+### Version 0.1.1 (15 Feburary 2014)
+
+- Improved notification message
+
+### Version 0.1.0 (15 February 2014)
+
+- Initial release
+
+
 Author
 ------
 

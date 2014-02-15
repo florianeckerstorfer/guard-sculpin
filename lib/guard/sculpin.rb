@@ -4,7 +4,7 @@ require 'guard/guard'
 module Guard
     class Sculpin < Guard
 
-        VERSION = '0.1.0'
+        VERSION = '0.1.1'
 
         DEFAULT_OPTIONS = {
             :binary      => 'vendor/bin/sculpin',
@@ -28,8 +28,8 @@ module Guard
                     ::Guard::Notifier.notify(results, :title => 'Sculpin', :image => :failed)
                     puts results
                 else
-                    ::Guard::Notifier.notify('Generated source', :title => 'Sculpin', :image => :success)
-                    puts 'Generated source'
+                    ::Guard::Notifier.notify('Generated Sculpin site', :title => 'Sculpin', :image => :success)
+                    puts 'Generated Sculpin site'
                 end
                 # end
             end
