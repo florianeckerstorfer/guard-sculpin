@@ -9,6 +9,12 @@ Installation
 
 Before you start make sure that you have Guard installed. It's best to use [Bundler](http://bundler.io) to install Guard and Guard::Sculpin.
 
+Install the Guard::Sculpin gem:
+
+```bash
+$ gem install guard-sculpin
+```
+
 Add Guard::Sculpin to your Gemfile
 
 ```ruby
