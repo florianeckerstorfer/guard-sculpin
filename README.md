@@ -61,7 +61,11 @@ end
 Changelog
 ---------
 
-### Version 0.1.1 (15 Feburary 2014)
+### Version 0.2.0 (15 February 2014)
+
+- Works with Guard 2.0+
+
+### Version 0.1.1 (15 February 2014)
 
 - Improved notification message
 
